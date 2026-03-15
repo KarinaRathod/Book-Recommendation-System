@@ -1,0 +1,29 @@
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+
+# Streamlit specific
+.streamlit/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks (if you used them to train the model)
+.ipynb_checkpoints
+
+# Large Data & Model Files (Highly recommended to ignore large datasets)
+*.csv
+*.pkl
+*.h5
+*.joblib
+*.sav
+datasets/
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
